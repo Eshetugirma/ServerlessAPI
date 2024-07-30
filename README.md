@@ -19,32 +19,6 @@ The Serverless Movies API is a cloud-based application designed to provide movie
 - **GitHub** (for version control and project documentation)
 
 ## Project Structure
-
-Sure! Here's a sample README.md file for your Serverless Movies API project:
-
-markdown
-Copy code
-# Serverless Movies API
-
-## Overview
-The Serverless Movies API is a cloud-based application designed to provide movie information through a set of RESTful API endpoints. The project utilizes Google Cloud Platform (GCP) services, including Cloud Functions, Firestore, and Secret Manager, to create a serverless architecture. Additionally, it integrates OpenAI's API to generate movie summaries.
-
-## Features
-- **GetMovies**: Retrieve a list of all movies stored in the database.
-- **GetMoviesByYear**: Retrieve a list of movies released in a specified year.
-- **GetMovieSummary**: Generate and retrieve an AI-generated summary for a specified movie.
-
-## Technologies Used
-- **Google Cloud Platform (GCP)**
-  - Cloud Functions
-  - Firestore (NoSQL Database)
-  - Secret Manager
-- **Python**
-  - Flask (for handling HTTP requests in cloud functions)
-- **OpenAI API** (for generating movie summaries)
-- **GitHub** (for version control and project documentation)
-
-## Project Structure
       serverless-api/
       ├── main.py
       ├── requirements.txt
